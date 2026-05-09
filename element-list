@@ -1,0 +1,13 @@
+pe.quillqasoft.dev.core.annotation
+pe.quillqasoft.dev.core.catalog
+pe.quillqasoft.dev.core.catalog.auth
+pe.quillqasoft.dev.core.catalog.business
+pe.quillqasoft.dev.core.catalog.database
+pe.quillqasoft.dev.core.catalog.generic
+pe.quillqasoft.dev.core.catalog.http
+pe.quillqasoft.dev.core.model
+pe.quillqasoft.dev.exception.auth
+pe.quillqasoft.dev.exception.business
+pe.quillqasoft.dev.exception.database
+pe.quillqasoft.dev.exception.generic
+pe.quillqasoft.dev.exception.http
