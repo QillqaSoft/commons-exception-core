@@ -33,7 +33,7 @@ Creating a new exception is a highly streamlined two-step process.
 
 Catalogs group related exceptions by domain (e.g., Auth, Business, Database). An Enum catalog must implement `BaseExceptionCatalog`.
 
-> **IMPORTANT: Naming Convention**
+> **⚠️ IMPORTANT: Naming Convention**
 > The Enum constant name **must** mathematically match the exception class name converted to `UPPER_SNAKE_CASE`, ignoring the "Exception" suffix.
 
 ```java
