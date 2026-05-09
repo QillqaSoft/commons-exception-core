@@ -1,8 +1,10 @@
+<div align="center">
+
 # Commons Exception Core
 
-![Java 21](https://img.shields.io/badge/Java-21-blue.svg)
-![JitPack](https://jitpack.io/v/QillqaSoft/commons-exception-core.svg)
-![Build Status](https://github.com/QillqaSoft/commons-exception-core/actions/workflows/ci.yml/badge.svg)
+[![Java](https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://adoptium.net/)
+[![Gradle](https://img.shields.io/badge/Gradle_Kotlin_DSL-02303A?style=for-the-badge&logo=gradle&logoColor=white)](https://docs.gradle.org/current/userguide/kotlin_dsl.html)
+</div>
 
 This library provides a robust, standardized, and highly maintainable way to handle exceptions across Java applications. By leveraging a **"Convention over Configuration"** approach, it eliminates boilerplate code, keeping exception classes completely clean while automatically binding them to centralized error catalogs.
 
