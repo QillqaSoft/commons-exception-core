@@ -1,6 +1,8 @@
 plugins {
     id("java-library")
     id("maven-publish")
+    id("jacoco")
+    id("checkstyle")
 }
 
 group = "pe.quillqasoft.dev"
@@ -26,6 +28,25 @@ dependencies {
 
 tasks.test {
     useJUnitPlatform()
+}
+
+tasks.jacocoTestReport {
+    dependsOn(tasks.test)
+    reports {
+        xml.required.set(true)
+        html.required.set(true)
+        csv.required.set(true)
+    }
+}
+
+tasks.jacocoTestCoverageVerification {
+    violationRules {
+        rule {
+            limit {
+                minimum = BigDecimal.valueOf(0.8)
+            }
+        }
+    }
 }
 
 publishing {
